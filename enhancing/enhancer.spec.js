@@ -10,7 +10,7 @@ describe('sanity check', () => {
 })
 
 describe('repair tests', () => {
-    it('add parmas', () => {
+    it('add attributes', () => {
         expect(repair()).toBeInstanceOf(Object)
     })
     it('durability returns 100', () => {
